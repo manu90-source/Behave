@@ -29,7 +29,7 @@ def step_impl(context, amount):
 
 # --- THEN STEPS ---
 #add comment changes 
-# added aonther line
+
 
 @then('the ATM should dispense ${dispensed_amount:d}')
 def step_impl(context, dispensed_amount):
